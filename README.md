@@ -1,6 +1,6 @@
-# Dixie Land Tree Service &mdash; Website
+# Dixieland Tree Service &mdash; Website
 
-Static HTML/CSS/JS website for Dixie Land Tree Service, a tree care company serving Huntsville, AL and surrounding North Alabama communities. Built for local SEO dominance per the [website blueprint](#).
+Static HTML/CSS/JS website for Dixieland Tree Service, a tree care company serving Huntsville, AL and surrounding North Alabama communities. Built for local SEO dominance per the [website blueprint](#).
 
 ## Architecture
 
@@ -78,20 +78,25 @@ Every page ships with:
 
 Sitemap includes all 37 indexable URLs with priorities. `robots.txt` points to the sitemap.
 
-## Configuration / placeholders
+## Business information
 
-Before launch, replace the following placeholder values:
+Real business info is baked into the HTML, `tel:` links, and JSON-LD schema:
 
-- Phone number: `(256) 555-0100` / `+12565550100` (in HTML, `tel:` links, schema)
-- Email: `info@dixielandtreeservice.com`
-- Address in schema + footer
-- Canonical domain: `https://www.dixielandtreeservice.com`
+- Business name: Dixieland Tree Service, LLC
+- Owner: Robert Norman
+- Phone: `(256) 497-8735` / `+12564978735`
+- Service area: Huntsville, Madison & Limestone counties, AL
+- 30+ years in business, BBB A+ accredited, Google Guaranteed, licensed and insured
+- Tagline: "The Remote Controlled Tree Service"
+
+## Remaining pre-launch items
+
+- Email address in footer / contact page (currently `info@dixielandtreeservice.com`)
+- Canonical domain: confirm `https://www.dixielandtreeservice.com` vs. `https://dixielandtree.com`
 - `images/` folder: add real crew/project photos (currently CSS-rendered placeholders)
 - Google Analytics / GTM tag in `<head>` of every page
 - Form backend: wire `#estimate-form` to Formspree, Netlify Forms, or your CRM
 - `geo` coordinates in LocalBusiness schema (currently downtown Huntsville)
-
-Grep for `555-0100`, `555-TREE`, and `dixielandtreeservice.com` to find all locations.
 
 ## Local development
 
@@ -122,4 +127,4 @@ Target Core Web Vitals: LCP &lt; 2.5s, INP &lt; 200ms, CLS &lt; 0.1.
 
 ## License
 
-Proprietary. &copy; Dixie Land Tree Service.
+Proprietary. &copy; Dixieland Tree Service.
