@@ -1,5 +1,5 @@
 /* =================================================================
-   Dixie Land Tree Service — Main JS
+   Dixieland Tree Service — Main JS
    Mobile menu, form handling, analytics hooks
    ================================================================= */
 (function () {
@@ -53,7 +53,7 @@
       showFormMessage(
         'Thanks, ' +
           escapeHtml(name.split(' ')[0]) +
-          '! We received your request and will call you back within 2 business hours. For emergencies, please call (256) 555-0100 now.',
+          '! We received your request and will call you back within 2 business hours. For emergencies, please call (256) 497-8735 now.',
         'success'
       );
       form.reset();
