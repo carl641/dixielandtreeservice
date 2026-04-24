@@ -1,6 +1,6 @@
 # Dixieland Tree Service &mdash; Website
 
-Static HTML/CSS/JS website for Dixieland Tree Service, a tree care company serving Huntsville, AL and surrounding North Alabama communities. Built for local SEO dominance per the [website blueprint](#).
+Static HTML/CSS/JS website for Dixieland Tree Service, a specialty large and tall tree removal company serving Huntsville, AL and surrounding North Alabama communities.
 
 ## Architecture
 
@@ -22,16 +22,11 @@ Pure static site: hand-written HTML, one shared stylesheet, and minimal JavaScri
 ├── js/main.js                             Menu toggle, form, analytics hooks
 ├── services/
 │   ├── index.html                         Services hub
-│   ├── tree-removal.html
-│   ├── tree-trimming.html
-│   ├── stump-grinding.html
+│   ├── tree-removal.html                  Large/tall tree removal (primary)
 │   ├── emergency-tree-service.html
 │   ├── storm-damage-cleanup.html
-│   ├── land-clearing.html
-│   ├── tree-health-disease-treatment.html
-│   ├── hazardous-tree-assessment.html
-│   ├── tree-cabling-bracing.html
-│   └── commercial-tree-services.html
+│   ├── stump-grinding.html
+│   └── tree-trimming.html
 ├── service-areas/
 │   ├── index.html                         Service area hub
 │   ├── huntsville-al.html
@@ -56,7 +51,7 @@ Pure static site: hand-written HTML, one shared stylesheet, and minimal JavaScri
     └── best-shade-trees-north-alabama.html
 ```
 
-**Total pages: 37** (hubs counted).
+**Total pages: 32** (hubs counted).
 
 ## SEO implementation
 
@@ -76,7 +71,7 @@ Every page ships with:
 - Breadcrumbs in visible HTML
 - Internal linking between services, service areas, and related blog posts
 
-Sitemap includes all 37 indexable URLs with priorities. `robots.txt` points to the sitemap.
+Sitemap includes all indexable URLs with priorities. `robots.txt` points to the sitemap.
 
 ## Business information
 
