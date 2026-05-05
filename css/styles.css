@@ -641,6 +641,22 @@ li {
   margin: 0;
   color: var(--ink-500);
 }
+a.step-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  transition: transform .15s ease, border-color .15s ease, box-shadow .15s ease;
+}
+a.step-link:hover,
+a.step-link:focus-visible {
+  border-color: var(--green-700);
+  box-shadow: var(--shadow-sm);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+a.step-link h3 {
+  color: var(--green-700);
+}
 
 /* ---------- Testimonials ---------- */
 .testimonial {
