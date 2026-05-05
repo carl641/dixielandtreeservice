@@ -86,7 +86,7 @@ Real business info is baked into the HTML, `tel:` links, and JSON-LD schema:
 
 ## Remaining pre-launch items
 
-- Email address in footer / contact page (currently `info@dixielandtreeservice.com`)
+- Email address in footer / contact page (currently `admin@dixielandtreeservice.net`)
 - Canonical domain: confirm `https://www.dixielandtreeservice.com` vs. `https://dixielandtree.com`
 - `images/` folder: add real crew/project photos (currently CSS-rendered placeholders)
 - Google Analytics / GTM tag in `<head>` of every page

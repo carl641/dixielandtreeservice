@@ -9,6 +9,19 @@
   <meta name="robots" content="index, follow" />
   <meta name="theme-color" content="#1b3a1e" />
   <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    .jobber-btn {
+      display: inline-block;
+      padding: 14px 28px;
+      background: #1a7f64;
+      color: #fff;
+      font-family: system-ui, sans-serif;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+    .jobber-btn:hover { background: #15634d; }
+  </style>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -74,7 +87,7 @@
           <div>
             <h2>Get in Touch</h2>
             <p><strong>Phone:</strong> <a href="tel:+12564978735">(256) 497-8735</a><br />
-               <strong>Email:</strong> <a href="mailto:info@dixielandtreeservice.com">info@dixielandtreeservice.com</a></p>
+               <strong>Email:</strong> <a href="mailto:admin@dixielandtreeservice.net">admin@dixielandtreeservice.net</a></p>
 
             <h3>Hours</h3>
             <p><strong>Open 24 hours, 7 days a week</strong> &mdash; call anytime.<br />
@@ -89,57 +102,16 @@
             </div>
           </div>
 
-          <form class="form-card" id="estimate-form" novalidate>
+          <div class="form-card">
             <h3 style="margin-top:0">Request a Free Estimate</h3>
-            <div class="form-row">
-              <div class="form-field">
-                <label for="name">Full Name *</label>
-                <input id="name" name="name" type="text" autocomplete="name" required />
-              </div>
-            </div>
-            <div class="form-row form-row-2">
-              <div class="form-field">
-                <label for="phone">Phone *</label>
-                <input id="phone" name="phone" type="tel" autocomplete="tel" required />
-              </div>
-              <div class="form-field">
-                <label for="email">Email</label>
-                <input id="email" name="email" type="email" autocomplete="email" />
-              </div>
-            </div>
-            <div class="form-row form-row-2">
-              <div class="form-field">
-                <label for="city">City</label>
-                <input id="city" name="city" type="text" autocomplete="address-level2" placeholder="Huntsville" />
-              </div>
-              <div class="form-field">
-                <label for="zip">ZIP</label>
-                <input id="zip" name="zip" type="text" inputmode="numeric" autocomplete="postal-code" placeholder="35801" />
-              </div>
-            </div>
-            <div class="form-row">
-              <div class="form-field">
-                <label for="service">Service Needed</label>
-                <select id="service" name="service">
-                  <option value="">Select a service</option>
-                  <option>Large Tree Removal</option>
-                  <option>Emergency / Storm Damage</option>
-                  <option>Stump Grinding</option>
-                  <option>Tree Trimming</option>
-                  <option>Other</option>
-                </select>
-              </div>
-            </div>
-            <div class="form-row">
-              <div class="form-field">
-                <label for="details">Brief Description</label>
-                <textarea id="details" name="details" placeholder="Tell us about the trees, access, and any concerns."></textarea>
-              </div>
-            </div>
-            <button class="btn btn-primary btn-block btn-lg" type="submit">Send Request</button>
-            <p class="form-note">We'll call you back within 2 business hours. No spam, ever.</p>
-            <div id="form-message" role="status" aria-live="polite"></div>
-          </form>
+            <p>Submit your request through our online portal and a Dixieland team member will reach back out within 2 business hours.</p>
+            <a href="https://clienthub.getjobber.com/hubs/f6ab59ee-d149-4c80-8260-dc68da58d2c2/public/requests/174709/new?source=social_media"
+               target="_blank"
+               rel="noopener"
+               class="jobber-btn">
+              Request a Quote
+            </a>
+          </div>
         </div>
       </div>
     </section>
