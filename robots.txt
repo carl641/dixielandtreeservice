@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /404.html
 
-Sitemap: https://www.dixielandtreeservice.com/sitemap.xml
+Sitemap: https://www.dixielandtree.com/sitemap.xml
