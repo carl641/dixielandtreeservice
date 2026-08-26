@@ -1130,6 +1130,9 @@ a.step-link h3 {
   .steps {
     grid-template-columns: repeat(4, 1fr);
   }
+  .steps.steps-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
   .two-col {
     grid-template-columns: 2fr 1fr;
   }
